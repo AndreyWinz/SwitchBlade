@@ -1,0 +1,28 @@
+# --- Global Settings ---
+# Handle line endings automatically for text files
+* text=auto
+
+# --- Ensure LF (Unix) line endings for source code ---
+*.py text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.go text eol=lf
+*.rs text eol=lf
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.sh text eol=lf
+
+# --- Ensure CRLF (Windows) for specific batch scripts if used ---
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# --- Documentation ---
+*.md text eol=lf
+
+# --- Binary Files (Keep intact, do not modify line endings) ---
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
