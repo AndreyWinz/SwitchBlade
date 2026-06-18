@@ -1,0 +1,51 @@
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+t_
+*.bak
+*.swp
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# --- Node.js / JavaScript ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Compiled Binaries & Build Outputs ---
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+bin/
+obj/
+dist/
+build/
+
+# --- Rust ---
+/target/
+
+# --- Go ---
+*.test
+*.prof
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
